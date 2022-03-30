@@ -1,5 +1,5 @@
 # HTML-CSS-Practice
-自己学习前端过程中的第一步
+记录一下自己学习前端的步骤
 
 主要是根据黑马的一些HTML CSS学习视频自己敲的一些小的demo
 视频地址https://www.bilibili.com/video/BV14J4114768?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click
