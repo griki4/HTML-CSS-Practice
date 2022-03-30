@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .yuanyi {
+            background-color: red;
+            z-index: 3;
+
+
+        }
+
+        .wucan {
+            background-color: pink;
+            z-index: 2;
+            margin-left: 50px;
+            margin-top: 50px;
+
+        }
+
+        .shangyi {
+            background-color: blue;
+            z-index: 1;
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box yuanyi"></div>
+    <div class="box wucan"></div>
+    <div class="box shangyi"></div>
+</body>
+
+</html>

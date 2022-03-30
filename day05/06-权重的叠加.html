@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 复合选择器的权重叠加，前一个选择器的权重更高。 */
+        /* 权重虽然可以叠加，但是不能进位 */
+        ul li {
+            color: pink;
+        }
+
+        li {
+            color: black;
+        }
+
+        .nav li {
+            color: blue;
+        }
+
+        /* .nav li 复合选择器的权重为0，0，1，1 比前面两个选择器的权重更高，优先级更高 */
+    </style>
+</head>
+
+<body>
+    <ul class="nav">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</body>
+
+</html>
