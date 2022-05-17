@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏布局</title>
+    <style>
+        #box {
+            height: 300px;
+            position: relative;
+        }
+        .left {
+            height: 100%;
+            width: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: red;
+        }
+
+        .right {
+            height: 100%;
+            width: 200px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: skyblue;
+        }
+
+        .middle {
+            height: 100%;
+            padding: 0 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <div class="left">左边</div>
+    <div class="middle">中间</div>
+    <div class="right">右边</div>
+</div>
+</body>
+</html>
