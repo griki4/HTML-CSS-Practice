@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多重变换</title>
+    <style>
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            transform-origin: 100% 100%;
+            /*多重变换是讲究顺序的，先旋转后平移和先平移后旋转得到的结果是不同的
+            因为旋转会改变坐标轴的指向*/
+            transform: rotate(-90deg) translate(100%, 100%);
+        }
+    </style>
+</head>
+<body>
+<div class="box2"></div>
+</body>
+</html>

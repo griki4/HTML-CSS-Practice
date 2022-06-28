@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二维变换</title>
+    <style>
+        #box {
+            /*旋转之后 margin-top也跟着旋转了x*/
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 200px;
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+
+            /*控制元素的旋转变换，默认以元素中心为旋转原点，通过transform-origin可以设置旋转原点*/
+            transform: rotate(45deg);
+
+        }
+        .box1 {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            transform-origin: 20px 20px;
+            transform: rotate(45deg);
+        }
+        .span1 {
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+<div id="box"></div>
+<span class="span1"></span>
+<div class="box2"></div>
+</body>
+</html>

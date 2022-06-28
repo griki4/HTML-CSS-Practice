@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>缩放和变形</title>
+  <style>
+    .box1{
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      transform-origin: bottom left;
+      /*表示沿中心位置放大n倍，也可指定在某一个坐标轴下进行缩放
+      变形则是指倾斜角度，以skewX为例在，指定一个角度，表示X方向的图形保持原方向，Y方向的图形则会倾斜这个角度*/
+      transform: scaleY(1) skewX(10deg);
+      margin: 300px auto;
+    }
+  </style>
+</head>
+<body>
+<div class="box1"></div>
+</body>
+</html>
